@@ -9,7 +9,7 @@ import (
 
 func greet(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("GET")
-	fmt.Fprintf(w, "Hello World! %s", time.Now())
+	fmt.Fprintf(w, "TICARACATICA %s", time.Now())
 }
 
 func main() {	
